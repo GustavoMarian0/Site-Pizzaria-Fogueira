@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="Imagens/img-logo-pizzaria.jpg" type="image/x-icon">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+    <title>Cadastre-se</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="cadastre">Cadastre-se para ficar por dentro de tudo</h1>
+        <h1 id="Pizza">Pizzaria Fogueira</h1>
+
+        <img id="img-animation" src="pizza-animate.svg" alt="Animação pizza">
+    </div>
+
+    <div class="card">
+        <img id="img-logo-card" src="Imagens/img-logo-pizzaria.jpg" alt="Logo">
+
+        <div class="fomulario">
+            <form>
+
+                <div class="nome">
+                    <label for="username"><h4>Nome:</h4></label>
+                    <input type="text" id="username" name="username" placeholder="Nome">
+                </div>
+
+                <div class="gmail">
+                    <label for="email"><h4>Email:</h4></label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+
+                <div class="sexo">
+                    <label for="sexo_user"><h4>Sexo:</h4></label>
+                    <select name="sexo_user" id="sexo_user">
+                    <option value="opcao1">Masculino</option>
+                    <option value="opcao2">Feminino</option>
+                    <option value="opcao3">Outro</option>
+                    </select>
+                 </div>
+
+                <div class="data">
+                    <label for="data_nascimento"><h4>Idade:</h4></label>
+                    <input type="date" id="data-nascimento" name="data-nascimento">
+                </div>
+
+                <div class="aceito">
+                    <label for="concordo"><h5>Aceito receber notificações</h5></label>
+                    <input type="checkbox" id="concordo" name="concordo">
+                </div>
+
+                <button type="submit" id="btn-enviar-form"><h3>Enviar</h3></button>
+
+            </form>
+
+        </div>
+    </div>
+    <div class="home">
+        <a href="index.html"><h3>⌂ Inicio</h3></a>
+    </div>
+</body>
+</html>
